@@ -30,7 +30,8 @@ const [openmodal,setOpenmodal]=useState(false);
 return(
     <div>
 
-{openmodal &&<Dup closeModal={setOpenmodal}/>}
+{openmodal && <Dup closeModal={setOpenmodal}/>}
+
         {/* <SafeUpdate/> */}
         {/* {popup?<Dup/>:""} */}
 <div className="container_second">
@@ -59,6 +60,7 @@ return(
         />)} */}
 
 {/* onClick={handleClickOpen} */}
+
 <div className="circle" onClick={()=>{setOpenmodal(true);}} >
     <img src={Circle} alt="circle"></img> 
         <div className="red_circle"><div className="one_finger"><img src={One_finger} alt="one_finger"></img></div>
@@ -69,6 +71,8 @@ return(
         <div className="add_box"><p>Create New Safe</p></div>
     </div>
 </div>
+
+
 </div>
 );
 }

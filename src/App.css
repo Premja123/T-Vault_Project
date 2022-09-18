@@ -137,11 +137,11 @@ span {
   width: 460px;
   height: 590px;
   background-color: #151820;
-  margin: 4rem 0rem 2rem 12rem;
+  margin: 4rem 0rem 2rem 16rem;
 }
 
 .safes_right_container {
-  width: 900px;
+  width: 600px;
   height: 590px;
   margin: 4rem 12rem 2rem 0rem;
   background-image: linear-gradient(to top, #151820, #2c3040);
@@ -154,6 +154,8 @@ span {
   padding: 30px 22px 0px 4px;
   object-fit: contain;
 }
+
+
 
 .create_para{
   display: flex;
